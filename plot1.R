@@ -11,7 +11,7 @@ plot_1 <- function( ){
       ## Plot 1
       ## Histogram of Global Active Power
       ## Prints to png file
-      png( "Plot1.png" )
+      png( "plot1.png" )
       hist( power_con$Global_active_power, main = "Global Active Power", xlab = "Global Active Power (kilowatts)", col = "red" )
       dev.off()
       
